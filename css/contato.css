@@ -1,0 +1,151 @@
+.contato {
+  margin-top: 5em;
+  height: 10%;
+  background: rgba(0, 0, 0, 0.7) url(../img/chairs-empty-office-2181916.jpg)
+    center center no-repeat fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+  display: flex;
+  padding-right: 5em;
+}
+
+.ag0 {
+  display: flex;
+  margin-left: 20em;
+  align-items: center;
+}
+
+.logo__rp {
+  height: 40%;
+}
+
+.pt {
+  text-transform: uppercase;
+  color: var(--laranja);
+  margin-bottom: 1em;
+}
+
+.ptl {
+  text-transform: uppercase;
+  color: var(--laranja);
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+}
+
+.links__rp {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--branco);
+  margin-top: 0.5em;
+  font-size: 0.9rem;
+}
+
+.links__rapidos {
+  margin: 5em;
+}
+
+.horários {
+  margin: 2em;
+  margin-left: 5em;
+}
+
+.dias {
+  color: var(--branco);
+  font-size: 0.9rem;
+  margin-top: 0.5em;
+}
+
+.contatos {
+  text-transform: uppercase;
+  color: var(--laranja);
+  margin: 0 0 2em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.ctt {
+  margin-bottom: 1em;
+}
+
+.img__ctt {
+  width: 1.5em;
+  margin: 0 0 0 4em;
+}
+
+.ctt__d {
+  display: flex;
+  align-items: center;
+  margin-left: 4em;
+}
+
+.link__ctt {
+  text-decoration: none;
+  color: var(--branco);
+}
+
+.links__rp:hover,
+.link__ctt:hover {
+  color: var(--cinzam);
+}
+
+@media screen and (max-width: 600px) {
+  .logo__rp {
+    height: 5em;
+    margin: 1em 0 0 6em;
+  }
+
+  .ag0 {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .horários {
+    display: none;
+  }
+
+  .contatos {
+    margin: 4em 0 2em 0;
+  }
+
+  .ctt {
+    margin-right: 4em;
+  }
+
+  .img__ctt {
+    margin: 0;
+  }
+  .links__rapidos {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ag0 {
+    margin: 0;
+  }
+
+  .logo__rp {
+    height: 5em;
+    margin-bottom: 8em;
+    margin-left: 1em;
+  }
+
+  .horários {
+    display: none;
+  }
+
+  .ctt {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+  .ag0 {
+    margin: 0;
+  }
+
+  .horários {
+    margin-right: 0;
+  }
+}

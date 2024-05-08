@@ -1,0 +1,11 @@
+footer {
+  padding: 1em;
+  background: var(--cor-de-fundo);
+  color: var(--branco);
+}
+
+footer > p {
+  color: var(--cinza);
+  text-align: center;
+  text-transform: uppercase;
+}

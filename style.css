@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url(css/reset.css);
+@import url(css/header.css);
+@import url(css/banner.css);
+@import url(css/tópico.css);
+@import url(css/tópicolow.css);
+@import url(css/sm.css);
+@import url(css/contato.css);
+@import url(css/footer.css);
+@import url(css/serviços.css);
+
+:root {
+  --cor-de-fundo: #f5f5f5;
+  --branco: #ffffff;
+  --laranja: #eb9b00;
+  --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --font-principal: "Poppins";
+  --font-secundario: "Quicksand";
+  --font-terciaria: "Merriweather";
+  --azul: #093247;
+  --amarelo: #d79b52;
+  --cinza-escuro: #242424;
+  --hover-cabecalho: #40679e;
+  --cinza: #bfbfbf;
+  --preto: #000000;
+  --cinzam: #808080;
+  --amarelom: #e7d50f;
+}
+
+body {
+  font-family: var(--font-principal);
+  background: var(--cor-de-fundo);
+  font-size: 1rem;
+}

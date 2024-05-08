@@ -1,0 +1,90 @@
+.banner__up {
+  background: rgba(0, 0, 0, 0.7) url(../img/bannercima.jpg) center center
+    no-repeat fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 30vw;
+}
+
+.banner__low {
+  background: rgba(0, 0, 0, 0.7) url(../img/buildings-gb74ab5c4d_1280.jpg)
+    center center no-repeat fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 17%;
+  margin-top: 2em;
+}
+
+.img__adv {
+  width: 30%;
+  margin: 5em;
+}
+
+.div__img {
+  display: flex;
+  justify-content: center;
+}
+
+.t__banner {
+  display: flex;
+  align-items: center;
+  color: var(--laranja);
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+.p__banner {
+  display: flex;
+  align-items: center;
+  color: var(--branco);
+  margin: 0.5em;
+  margin-left: 0;
+  font-family: var(--font-secundario);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.div__t {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .banner__up {
+    background: rgba(0, 0, 0, 0.7)
+      url(../img/desktop-wallpaper-od37-tall-building.jpg) center bottom;
+    height: 100vw;
+    width: 100%;
+  }
+
+  .banner__low {
+    background: rgba(0, 0, 0, 0.7)
+      url(../img/mandado-de-seguranca-precisa-de-advogado.webp) bottom left;
+    background-blend-mode: darken;
+    padding: 1em;
+  }
+
+  .img__adv {
+    display: none;
+  }
+
+  .t__banner {
+    justify-content: center;
+  }
+
+  .p__banner {
+    font-size: 0.9rem;
+  }
+
+  .br {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .br {
+    display: none;
+  }
+}

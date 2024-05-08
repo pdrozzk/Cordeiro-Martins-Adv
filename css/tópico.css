@@ -1,0 +1,70 @@
+.tópico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.parag__tópico {
+  text-transform: uppercase;
+  color: var(--amarelo);
+  margin-top: 4em;
+  text-align: center;
+}
+
+.title__tópico {
+  font-size: 2rem;
+  font-family: var(--font-terciaria);
+  margin: 0.5em;
+  text-align: center;
+}
+
+.lista__itens {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.itens {
+  margin: 2em;
+  border: 1px solid var(--preto);
+  padding: 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.title__listas {
+  margin: 1em;
+}
+
+.img__direito {
+  height: 4em;
+}
+
+.parag__tópicos {
+  font-size: 0.9rem;
+  color: var(--cinza-escuro);
+  text-transform: uppercase;
+}
+
+.itens:hover {
+  color: var(--amarelo);
+}
+
+@media screen and (max-width: 600px) {
+  .parag__tópicos {
+    display: none;
+  }
+
+  .img__direito-civil {
+    margin: 0em 4.6em;
+  }
+
+  .itens {
+    margin: 0.5em;
+  }
+
+  .lista__itens {
+    flex-direction: column;
+  }
+}
